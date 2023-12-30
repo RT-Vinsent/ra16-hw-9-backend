@@ -1,0 +1,27 @@
+{
+  "name": "ra16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "Roman T <rt.hagbo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "bcrypt": "^5.1.1",
+    "forever": "^4.0.3",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-passport": "^6.0.0",
+    "koa-router": "^12.0.1",
+    "passport-http-bearer": "^1.0.1",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
